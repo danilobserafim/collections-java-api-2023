@@ -40,8 +40,8 @@ public class ListaTarefas {
     public void obterDescricoesTarefas(){
         System.out.println(tarefaList);
     }
-        public static void main(String[] args) {
-        ListaTarefas listaTarefa = new ListaTarefas();
+/*        public static void main(String[] args) {
+            ListaTarefas listaTarefa = new ListaTarefas();
             listaTarefa.adicionarTarefa("Tarefa 1");
             listaTarefa.adicionarTarefa("Tarefa 1");
             listaTarefa.adicionarTarefa("Tarefa 2");
@@ -50,4 +50,5 @@ public class ListaTarefas {
             System.out.println("O número total de elementos na lista é: " + listaTarefa.obterNumeroTotalTarefas());
             listaTarefa.obterDescricoesTarefas();
     }
+*/
 }

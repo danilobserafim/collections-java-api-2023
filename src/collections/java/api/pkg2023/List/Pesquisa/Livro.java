@@ -6,16 +6,16 @@ package collections.java.api.pkg2023.List.Pesquisa;
 
 /**
  *
- * @author danilo
+ * @autor danilo
  */
 public class Livro {
     private String titulo;
-    private String author;
+    private String autor;
     private int anoPublicacao;
 
-    public Livro(String titulo, String author, int anoPublicacao) {
+    public Livro(String titulo, String autor, int anoPublicacao) {
         this.titulo = titulo;
-        this.author = author;
+        this.autor = autor;
         this.anoPublicacao = anoPublicacao;
     }
 
@@ -27,12 +27,12 @@ public class Livro {
         this.titulo = titulo;
     }
 
-    public String getAuthor() {
-        return author;
+    public String getautor() {
+        return autor;
     }
 
-    public void setAuthor(String author) {
-        this.author = author;
+    public void setautor(String autor) {
+        this.autor = autor;
     }
 
     public int getAnoPublicacao() {
@@ -45,7 +45,7 @@ public class Livro {
 
     @Override
     public String toString() {
-        return "Livro{" + "titulo=" + titulo + ", author=" + author + ", anoPublicacao=" + anoPublicacao + '}';
+        return "Livro{" + "titulo=" + titulo + ", autor=" + autor + ", anoPublicacao=" + anoPublicacao + '}';
     }
         
 }
