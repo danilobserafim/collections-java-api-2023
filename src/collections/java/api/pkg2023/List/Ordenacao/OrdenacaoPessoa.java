@@ -42,7 +42,7 @@ public class OrdenacaoPessoa {
         return "ordenacaoPessoa{" + "pessoaList=" + pessoaList + '}';
     }
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         OrdenacaoPessoa ordenacaoPessoas = new OrdenacaoPessoa();
         ordenacaoPessoas.adicionarPessoa("pessoa 1", 28, 1.60);
         ordenacaoPessoas.adicionarPessoa("pessoa 1", 29, 1.80);
@@ -51,6 +51,6 @@ public class OrdenacaoPessoa {
         ordenacaoPessoas.adicionarPessoa("mais novo", 26, 1.88);
         System.out.println(ordenacaoPessoas.ordenarPorIdade());
         System.out.println(ordenacaoPessoas.ordenarPorAltura());
-    }
+    }*/
 
 }

@@ -55,7 +55,7 @@ public class Pessoa implements Comparable<Pessoa>{
         return Integer.compare(idade, p.getIdade());
     }     
 }
-public class ComparatorPorAltura implements Comparator<Pessoa> {
+/*public class ComparatorPorAltura implements Comparator<Pessoa> {
 
     @Override
     public int compare(Pessoa p1, Pessoa p2) {
@@ -63,3 +63,4 @@ public class ComparatorPorAltura implements Comparator<Pessoa> {
     }
 
 }
+*/
