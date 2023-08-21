@@ -35,14 +35,14 @@ public class CadastroProduto {
         return produtosPorPreco;
     }
 
-    public static void main(String[] args) {
-        CadastroProduto produtosCadastrados = new CadastroProduto();
-        produtosCadastrados.adicionarProduto("arroz", 0, 5, 100);
-        produtosCadastrados.adicionarProduto("feijão", 1, 6, 99);
-        produtosCadastrados.adicionarProduto("macarrão", 2, 7, 98);
-        produtosCadastrados.adicionarProduto("Carne", 4, 8, 97);
-        System.out.println(produtosCadastrados.exibirProdutosPorNome());
-        System.out.println(produtosCadastrados.exibirProdutosPorPreco());
-
-    }
+//    public static void main(String[] args) {
+//        CadastroProduto produtosCadastrados = new CadastroProduto();
+//        produtosCadastrados.adicionarProduto("arroz", 0, 5, 100);
+//        produtosCadastrados.adicionarProduto("feijão", 1, 6, 99);
+//        produtosCadastrados.adicionarProduto("macarrão", 2, 7, 98);
+//        produtosCadastrados.adicionarProduto("Carne", 4, 8, 97);
+//        System.out.println(produtosCadastrados.exibirProdutosPorNome());
+//        System.out.println(produtosCadastrados.exibirProdutosPorPreco());
+//
+//    }
 }
